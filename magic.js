@@ -10,3 +10,12 @@ day is equal to the year. If so, it should display a message saying the date is 
 Otherwise, it should display a message saying the date is not magic.
 */
 
+var month = 10;
+var day = 17;
+var year = 75;
+
+if(month * day == year){
+    console.log("Date is Magic!");
+} else {
+    console.log("Date is Not Magic...");
+}
