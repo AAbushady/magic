@@ -14,7 +14,7 @@ var month = 10;
 var day = 17;
 var year = 75;
 
-if(month * day == year){
+if (month * day == year) {
     console.log("Date is Magic!");
 } else {
     console.log("Date is Not Magic...");
